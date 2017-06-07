@@ -37,6 +37,9 @@ This is just a helper to document the links for me.
   Building report for http://feeds.twit.tv/sn.xml into /Users/dfs/Documents/code/podcast/bin/../reports/sn.xml.html...
 ```
 
-### Example Reports
-![Security Now Example](/examples/sn.xml.png?raw=true "Security Now Report")
-![Risky Biz Example](/examples/risky-business.png?raw=true "Risky Business Report")
+### Example Report Output
+by wkhtmltoimage
+
+| Security Now  | Risky Business |
+| ------------- | ------------- |
+| ![Security Now Example](/examples/sn.xml.png?raw=true "Security Now Report")  | ![Risky Biz Example](/examples/risky-business.png?raw=true "Risky Business Report")  |
