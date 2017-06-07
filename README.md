@@ -38,5 +38,5 @@ This is just a helper to document the links for me.
 ```
 
 ### Example Reports
-![Security Now Example](/examples/sn.xml.html?raw=true "Security Now Report")
-![Risky Biz Example](/examples/risky-business.html?raw=true "Risky Business Report")
+![Security Now Example](/examples/sn.xml.png?raw=true "Security Now Report")
+![Risky Biz Example](/examples/risky-business.png?raw=true "Risky Business Report")
