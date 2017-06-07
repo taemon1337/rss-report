@@ -1,0 +1,15 @@
+{
+  "name": "podcast",
+  "version": "1.0.0",
+  "description": "A simple utility script to download an RSS feed and generate a report about it.",
+  "main": "index.js",
+  "dependencies": {
+    "podcatcher": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taemon1337",
+  "license": "ISC"
+}

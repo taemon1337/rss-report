@@ -1,0 +1,4 @@
+.DS_Store
+db/
+reports/
+node_modules/

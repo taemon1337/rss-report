@@ -1,0 +1,32 @@
+#!/bin/bash
+
+read -r -d '' HELP << EOM
+# Usage: $0 <command> <options>
+# Commands:
+#   report    <rss-uri>   build a html report for given RSS feed
+#   list                  list common RSS feeds
+#
+EOM
+
+COMMON=(https://risky.biz/feeds/risky-business/ http://feeds.twit.tv/sn.xml)
+SCRIPT=index.js
+REPORTDIR=../reports
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+case "$1" in
+  report)
+    for feed in "${@:2}"; do
+      filename=$DIR/$REPORTDIR/$(basename $feed).html
+      echo "Building report for $feed into $filename..."
+      $(cd $DIR/.. && node $SCRIPT $feed > $filename)
+    done
+    ;;
+  list)
+    for feed in "${COMMON[@]}"; do
+      echo "$feed"
+    done
+    ;;
+  *)
+    echo "$HELP";;
+esac
+
