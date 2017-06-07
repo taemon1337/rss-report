@@ -37,3 +37,6 @@ This is just a helper to document the links for me.
   Building report for http://feeds.twit.tv/sn.xml into /Users/dfs/Documents/code/podcast/bin/../reports/sn.xml.html...
 ```
 
+### Example Reports
+![Security Now Example](/examples/sn.xml.html?raw=true "Security Now Report")
+![Risky Biz Example](/examples/risky-business.html?raw=true "Risky Business Report")
