@@ -35,5 +35,5 @@ This is just a helper to document the links for me.
   ./bin/rss report https://risky.biz/feeds/risky-business/ http://feeds.twit.tv/sn.xml
   Building report for https://risky.biz/feeds/risky-business/ into /Users/dfs/Documents/code/podcast/bin/../reports/risky-business.html...
   Building report for http://feeds.twit.tv/sn.xml into /Users/dfs/Documents/code/podcast/bin/../reports/sn.xml.html...
-```bash
+```
 
